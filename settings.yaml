@@ -1,0 +1,100 @@
+site:
+  label: 标题设置
+  items:
+    sub_title:
+      name: 副标题
+      label: 副标题
+      type: text
+    archives_title:
+      name: archives_title
+      label: 归档页标题
+      type: text
+      default: '博客'
+      description: '/archives 页面显示的标题名字'
+    photos_title:
+      name: photos_title
+      label: 图库页标题
+      type: text
+      default: '图库'
+      description: '/photos 页面显示的标题名字'
+    journals_title:
+      name: journals_title
+      label: 日志页标题
+      type: text
+      default: '日志'
+      description: '/journals 页面显示的标题名字'
+    api_authorization:
+      name: api_authorization
+      label: Access key
+      type: text
+      default: ''
+      description: 接口认证
+sns:
+  label: 社交资料
+  items:
+    github:
+      name: github
+      label: github
+      type: text
+    weibo:
+      name: weibo
+      label: 微博
+      type: text
+    wechat:
+      name: wechat
+      label: 微信二维码
+      type: text
+    qq:
+      name: qq
+      label: QQ二维码
+      type: text
+    bilibili:
+      name: bilibili
+      label: bilibili
+      type: text
+    email:
+      name: email
+      label: 邮箱
+      type: text
+    rss:
+      name: rss
+      label: rss
+      type: text
+theme:
+  label: 外观设置
+  items:
+    init_click:
+      name: init_click
+      label: 局部刷新
+      type: radio
+      default: open
+      options:
+        - value: open
+          label: 开
+        - value: close
+          label: 关
+    font:
+      name: font
+      label: 字体
+      type: select
+      data-type: 'string'
+      default: 'oppo-sans'
+      options:
+        - value: 'oppo-sans'
+          label: 'OPPO Sans'
+        - value: 'Mi-Sans'
+          label: 'Mi Sans'
+        - value: 'system'
+          label: '系统字体'
+    icp_beian:
+      name: icp_beian
+      label: ICP 备案号
+      type: text
+    ga_beian_content:
+      name: ga_beian_content
+      label: 公安备案内容
+      type: text
+    ga_beian_code:
+      name: ga_beian_code
+      label: 公安备案编号
+      type: text
